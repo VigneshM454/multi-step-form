@@ -1,0 +1,461 @@
+body {
+    background-color: aliceblue;
+    align-items: center;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+}
+.activecontent1>h1{
+    margin-bottom: 0;
+}
+.content {
+    background-color: white;
+    width: 95vw;
+    height: 90%;
+    display: flex;
+    max-width: 45rem;
+    max-height: 35rem;
+    flex-direction: row;
+    border-radius: 15px;
+}
+.sidebar,.activecontent1,.activecontent2{
+    display: flex;
+    height: 95%;
+    flex-direction: column;
+}
+.activecontent1,.activecontent2{
+    padding: 5% 10%;
+}
+
+.sidebar {
+    background-image: url(./assets/images/bg-sidebar-desktop.svg);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 20vw;
+    min-width: 10rem;
+    background-size: cover;
+    border-radius: 15px;
+    position: relative;
+    top: 2%;
+    left: 1.5%;
+}
+.numcontain {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    gap: 10px;
+}
+
+.numgrp1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.step>h4,.step>p{
+    margin: 5px;
+}
+span.num
+{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    background: white;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    width: 30%;
+    min-width: 100px;
+    position: relative;
+  /*  left: 70%;
+    */top: 10%;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+input {
+    height: 1.5rem;
+    margin-top: 0.4rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+
+
+.plandiv{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    gap: 10px;
+}/*
+.plan {
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    min-width: 6rem;
+    height: 9rem;
+    justify-content: space-around;
+    border: 2px solid gainsboro;
+    padding-top: 10px;
+    padding-left: 10px;
+}*/
+.plan {
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 7rem;
+    justify-content: space-around;
+    border: 2px solid gainsboro;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.preplan{
+    background-color: aliceblue;
+    border-color: blue;
+}
+.plan:hover{
+    border-color: blue;
+}
+#yr2{
+    color: darkblue;
+    margin-top: 0;
+}
+.yr{
+    display: none;
+}
+.ymdiv>p{
+    font-weight: bold;
+    color: darkblue;
+}/*
+.inactive{
+    color: rgba(0, 0, 139,0.4);
+}*/
+/*
+#mcolor,#ycolor{
+    font-weight: bold;
+}
+#mcolor{
+    color: darkblue;
+}
+#ycolor{
+    color: rgba(0, 0, 139,0.4);
+}
+*/
+.planimg{
+    width: 50px;
+    height: 50px;
+}
+.plandetail>h5, .plandetail>p{
+    margin: 4px;
+    margin: 0;
+}
+.plandetail>h5 {
+    color: darkblue;
+    font-size: 20px;
+    position: relative;
+    top: 0px;
+    margin: 0;
+}
+.ymdiv {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    position: relative;
+    top: 5%;
+    background-color: aliceblue;
+    border-radius: 10px;
+    height: 40px;
+    align-items: center;
+}
+button {
+    text-transform: capitalize;
+    background-color: darkblue;
+    color: white;
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+button#page32,button#page21,button#page43 {
+    background: white;
+    border: none;
+    color: darkblue;
+}
+.activecontent2>h1{
+    margin: 0;
+}
+.activecontent2>p{
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.tofrom{
+    top: 15%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.activecontent1>.tofrom{
+    top: 4%;
+    justify-content: end;
+}
+.activecontent2>.tofrom{
+    top: 22%;
+}
+.activecontent3>.tofrom{
+    top: 6%;
+}
+.activecontent4>.tofrom{
+    top: 5%;
+}
+.activecontent3>h1{
+    margin: 0;
+}
+.activecontent3>p{
+    margin-bottom: 0;
+}
+input[type="range"]{
+    margin-top: 20px;
+    appearance: unset;
+    width: 40px;
+    background: darkblue;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 10px;
+    height: 20px;
+    accent-color: white;
+}
+.addondiv {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 45vh;
+    gap: 5%;
+}
+.addon {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    padding: 5px;
+    justify-content: space-around;
+    align-items: center;
+}
+.addontxt{
+    display: flex;
+    flex-direction: column;
+}
+.addontxt>h4, .addontxt>p{
+    margin: 4px;
+}
+.addon>h5{
+    color: blue;
+}
+
+
+.success {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+
+.finish{
+    background-color: aliceblue;
+}
+.fplan,.faddon>p,.ftotal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.faddon {
+    padding-bottom: 10px;
+}
+.ftotal {
+    position: relative;
+    top: 0%;
+    height: 25px;
+}
+.activecontent4>h1{
+    margin: 0;
+}
+
+.lab{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.check{
+    accent-color: blue;
+    width: 20px;
+    height: 20px;
+}
+
+.error{
+    color: red;
+    margin: 0;
+    display: none;
+}
+.planname>h4{
+    display: flex;
+}
+.success {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+/*
+.activecontent1,.activecontent3,.activecontent4,.success{
+    display: none;
+}
+*/
+.activecontent2,.activecontent3,.activecontent4,.success{
+    padding: 10% 10%;
+    padding-bottom: 5px;
+    width: 60vw;
+    display: none;
+}
+
+@media (width<650px) and (width>375px){
+   body{
+        min-width: 490px;
+    }
+    .addondiv{
+        position: relative;
+        top: 5%;
+    }
+  /*  .content{
+        min-width: 490px;
+    }*/
+    .activecontent1,.activecontent2,.activecontent3,.activecontent4{
+        padding: 15% 4%;
+    }
+    .activecontent1>p{
+        margin-top: 4px;
+    margin-bottom: 4px;
+    }
+    .content{
+        width: 110vw;
+        height: 100%;
+    }
+    .plandetail>p{
+        font-size: 13px;
+    }
+    img.planimg {
+        height: 40px;
+        width: 40px;
+    }
+    .plandetail>h5{
+        font-size: 17px;
+    }
+    .activecontent4>.tofrom {
+        top: 16%;
+    }
+    .activecontent3>.tofrom {
+        top: 18%;
+    }
+    .activecontent2>.tofrom {
+        top: 25%;
+    }
+    .activecontent1>.tofrom {
+        top: 15%;
+    }
+}
+@media (width<375px) {
+    body {
+        background-color: aliceblue;
+        align-items: center;
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+    }
+    .content {
+        background-color: aliceblue;
+        width: 90vw;
+        height: 67%;
+        display: flex;
+        flex-direction: row;
+        border-radius: 15px;
+    }
+    .sidebar {
+        background-image: url(./assets/images/bg-sidebar-mobile.svg);
+        width: 95vw;
+        height: 40vw;
+        background-repeat: no-repeat;
+        position: absolute;
+        border-radius: 0;
+        top: 0;
+        left: 0;
+    }
+    .numcontain {
+        flex-direction: row;
+        height: 100%;
+        width: auto;
+        gap: 20px;
+    }
+    .numgrp1{
+        flex-direction: column;
+    }
+    .step{
+        display: none;
+    }
+    .btn{
+        min-width: 120px;
+     /*   left: 50%;
+    */}
+    .plandiv{
+        flex-direction: column;
+    }
+    .plan {
+        width: 75vw;
+        flex-direction: row;
+        height: 5rem;
+        align-items: center;
+        gap: 15px;
+        justify-content: flex-start;
+        padding-top: 0;
+    }
+    .addondiv{
+
+        width: 100%;
+    }
+    .activecontent1>.tofrom ,.activecontent2>.tofrom ,.activecontent3>.tofrom,.activecontent4>.tofrom{
+    background: white;
+    position: absolute;
+    top: 80vh;
+    width: 95vw;
+    padding: 5% 0;
+    left: -3%;
+   }
+   .activecontent2>.tofrom{
+    top: 100vh;
+   }
+    .activecontent1, .activecontent2, .activecontent3, .activecontent4, .success {
+        width: 80vw;
+        height: 65vh;
+        padding: 5%;
+        top: -5%;
+        background: white;
+        position: relative;
+        border-radius: 15px;
+        z-index: 2;
+    }
+    .activecontent2{
+        height: 80vh;
+    }
+    
+}
